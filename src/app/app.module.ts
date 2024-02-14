@@ -10,6 +10,8 @@ import { GithubprofileComponent } from './githubprofile/githubprofile.component'
 import { GithubreposComponent } from './githubrepos/githubrepos.component';
 import { GithubprofileCardComponent } from './githubprofile-card/githubprofile-card.component';
 import { GithubprofileDataComponent } from './githubprofile-data/githubprofile-data.component';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { GithubprofileDataComponent } from './githubprofile-data/githubprofile-d
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    NgxSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

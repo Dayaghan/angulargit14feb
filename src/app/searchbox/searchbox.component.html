@@ -10,6 +10,7 @@
                         <div class="form group">
                             <input [(ngModel)]="githubUserQuery" name="user" type="search" class="form-control" placeholder="github user">
                         </div>
+                        <p></p>
                         <input type="submit" value="SEARCH" class="btn btn-secondary">
                     </form>
                 </div>
@@ -23,7 +24,7 @@
             </div>
             <div class="row">
                 <div class="column">
-                    <app-githubrepos [githubProfile]="githubProfile"></app-githubrepos>
+                    <app-githubrepos [githubRepos]="githubRepos"></app-githubrepos>
                 </div>
             </div>
         </div>

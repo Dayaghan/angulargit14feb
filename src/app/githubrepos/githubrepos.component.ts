@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrl: './githubrepos.component.css'
 })
 export class GithubreposComponent implements OnInit{
-  @Input() githubProfile:any
+  @Input() githubRepos:any
    constructor(){}
    ngOnInit(): void {
      

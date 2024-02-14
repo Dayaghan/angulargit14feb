@@ -22,7 +22,6 @@ export class GithubService {
     return this.httpclient.get<any>(dataURL).pipe(retry(),
     catchError(this.handleErrors)
     );
-
   }
   public handleErrors(error:HttpErrorResponse){
     let errorMessage:string;
